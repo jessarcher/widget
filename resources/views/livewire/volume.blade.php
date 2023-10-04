@@ -7,8 +7,8 @@ state('class');
 $volume = computed(fn () => (int) trim(`amixer sget Master | awk -F"[][]" '/Left:/ { print $2 }'`));
 $muted = computed(fn () => trim(`amixer sget Master | awk -F"[][]" '/Left:/ { print $4 }'`) === 'off');
 
-$updateVolume = fn ($value) => trim(`amixer sset Master {$value}%`);
-$toggleMute = fn () => trim(`amixer sset Master toggle`);
+$updateVolume = fn ($value) => `amixer sset Master {$value}%`;
+$toggleMute = fn () => `amixer sset Master toggle`;
 
 ?>
 
