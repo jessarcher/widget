@@ -18,6 +18,9 @@ export default {
                 // iceland
                 // electrolize
             },
+            fontSize: {
+                '10xl': '10rem',
+            },
             animation: {
                 wiggle: 'wiggle 0.15s ease-in-out infinite',
                 wave: 'wave 0.5s ease-in-out infinite',
