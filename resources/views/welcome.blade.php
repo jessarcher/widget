@@ -15,7 +15,7 @@
         @vite('resources/css/app.css')
     </head>
     <body class="antialiased bg-yellow-1000">
-        <div class="bg-yellow-1000 relative text-yellow-300 w-[1920px] h-[400px] p-6 overflow-hidden grid grid-cols-12 gap-10">
+        <div class="bg-yellow-1000 relative text-yellow-300 w-[1920px] h-[480px] p-6 overflow-hidden grid grid-cols-12 gap-10">
             <div class="col-span-4 flex items-center">
                 <livewire:clock />
                 {{-- <livewire:battery /> --}}
