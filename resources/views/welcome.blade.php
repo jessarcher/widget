@@ -42,13 +42,6 @@
         {{--     <path d="M366.186 316L187.5 0.300049H282.7L461.386 316H366.186Z"/> --}}
         {{-- </svg> --}}
 
-        <div class="grid gap-10 grid-cols-12 items-center">
-            <div class="flex flex-col items-end gap-6 col-span-2">
-            </div>
-            <div class="col-span-4 row-span-2 grid gap-6">
-            </div>
-        </div>
-
         {{-- <div class="flex min-h-screen flex-col gap-10 bg-[#1d0f02] p-10 text-[#fdef7e]"> --}}
         {{--   <div class="flex w-fit gap-1 rounded border-4 border-[#fdef7e] px-2 py-1 [box-shadow:0_0_6px_#fdef7e,_inset_0_0_6px_#fdef7e]"> --}}
         {{--     <div class="h-8 w-4 -skew-x-12 rounded-sm bg-[#fdef7e] [box-shadow:0_0_6px_#fdef7e]"></div> --}}
