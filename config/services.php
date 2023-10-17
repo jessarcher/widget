@@ -31,4 +31,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'homeassistant' => [
+        'url' => env('HOMEASSISTANT_URL', 'http://localhost:8123/api/'),
+        'token' => env('HOMEASSISTANT_TOKEN'),
+    ],
+
+    'github' => [
+        'url' => env('GITHUB_URL', 'https://api.github.com/'),
+        'token' => env('GITHUB_TOKEN'),
+    ],
+
 ];

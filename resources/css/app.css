@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .glow-sm {
+        filter: drop-shadow(0 0 3px rgba(253, 239, 126, 0.6));
+    }
+    .glow {
+        filter: drop-shadow(0 0 3px theme(colors.yellow.200));
+    }
+    .glow-inset {
+        filter: drop-shadow(0 0 3px #fdef7e, inset 0 0 3px #fdef7e);
+    }
+}
