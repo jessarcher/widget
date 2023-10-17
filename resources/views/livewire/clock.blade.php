@@ -6,7 +6,7 @@ state('class');
 
 ?>
 
-<div wire:poll.1s class="{{ $class }}">
-    <p class="font-bebas text-8xl glow">{{ now()->tz('Australia/Brisbane')->format('H:i:s') }}</p>
-    <p class="font-bebas text-3xl glow">{{ now()->tz('Australia/Brisbane')->format('D d M Y') }}</p>
+<div wire:poll.1s class="{{ $class }}text-right">
+    <p class="font-bebas text-9xl text-orange-400 glow">{{ now()->tz('Australia/Brisbane')->format('H.i') }}</p>
+    <p class="font-bebas text-4xl text-orange-400 glow">{{ now()->tz('Australia/Brisbane')->format('D d M Y') }}</p>
 </div>

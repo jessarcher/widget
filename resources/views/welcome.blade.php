@@ -16,25 +16,25 @@
     </head>
     <body class="antialiased bg-yellow-1000">
         <div class="bg-yellow-1000 relative text-yellow-300 w-[1920px] h-[400px] p-6 overflow-hidden grid grid-cols-12 gap-10">
-            <div class="col-span-2 w-fit flex flex-col justify-between gap-6">
+            <div class="col-span-4 flex items-center">
                 <livewire:clock />
                 {{-- <livewire:battery /> --}}
                 {{-- <livewire:volume /> --}}
             </div>
-            <div class="col-span-5 flex flex-col">
-                <div class="flex-1 flex items-center justify-center">
-                    <livewire:home-assistant />
-                </div>
-                {{-- <livewire:media-player class="w-full" /> --}}
-            </div>
+            {{-- <div class="col-span-5 flex flex-col"> --}}
+            {{--     <div class="flex-1 flex items-center justify-center"> --}}
+            {{--         <livewire:home-assistant /> --}}
+            {{--     </div> --}}
+            {{--     {{-1- <livewire:media-player class="w-full" /> -1-}} --}}
+            {{-- </div> --}}
             {{-- <div class="col-span-2 flex flex-col justify-between"> --}}
             {{--     <livewire:temperature lazy /> --}}
             {{--     <livewire:radar lazy /> --}}
             {{-- </div> --}}
-            <div class="col-span-3 flex flex-col justify-between">
-                <livewire:github-contributions lazy username="jessarcher" />
-                <livewire:github-issues lazy class="bg-yellow-950/40 p-4 rounded-lg" />
-            </div>
+            {{-- <div class="col-span-3 flex flex-col justify-between"> --}}
+            {{--     <livewire:github-contributions lazy username="jessarcher" /> --}}
+            {{--     <livewire:github-issues lazy class="bg-yellow-950/40 p-4 rounded-lg" /> --}}
+            {{-- </div> --}}
         </div>
 
         {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 316" fill="currentColor" class="h-24 fill-yellow-300 glow"> --}}

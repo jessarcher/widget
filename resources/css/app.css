@@ -7,7 +7,7 @@
         filter: drop-shadow(0 0 3px rgba(253, 239, 126, 0.6));
     }
     .glow {
-        filter: drop-shadow(0 0 3px theme(colors.yellow.200));
+        filter: drop-shadow(0 0 3px theme(colors.orange.400));
     }
     .glow-inset {
         filter: drop-shadow(0 0 3px #fdef7e, inset 0 0 3px #fdef7e);
