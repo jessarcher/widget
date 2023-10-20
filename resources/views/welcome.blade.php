@@ -14,8 +14,8 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased bg-amber-1000 text-amber-300 grainy">
-        <div class="relative w-[1920px] h-[480px] p-6 overflow-hidden grid grid-cols-12 gap-10">
+    <body class="antialiased bg-amber-1000 text-amber-400 grainy">
+        <div class="relative w-[1920px] h-[480px] p-10 overflow-hidden grid grid-cols-12 gap-10">
             <div class="col-span-4 flex items-center">
                 <livewire:clock />
                 {{-- <livewire:battery /> --}}
