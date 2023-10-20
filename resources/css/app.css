@@ -12,4 +12,32 @@
     .glow-inset {
         filter: drop-shadow(0 0 3px #fdef7e, inset 0 0 3px #fdef7e);
     }
+
+    .grainy:after {
+        animation: grain 12s steps(10) infinite;
+        position: fixed;
+        background-image: url('../images/light_toast.png');
+        content: "";
+        height: 300%;
+        width: 300%;
+        left: -50%;
+        top: -110%;
+        opacity: 0.15;
+        pointer-events: none;
+        mix-blend-mode: color-dodge;
+        z-index: 100;
+    }
+
+    @keyframes grain {
+      0%, 100% { transform:translate(0, 0) }
+      10% { transform:translate(-5%, -10%) }
+      20% { transform:translate(-15%, 5%) }
+      30% { transform:translate(7%, -25%) }
+      40% { transform:translate(-5%, 25%) }
+      50% { transform:translate(-15%, 10%) }
+      60% { transform:translate(15%, 0%) }
+      70% { transform:translate(0%, 15%) }
+      80% { transform:translate(3%, 35%) }
+      90% { transform:translate(-10%, 10%) }
+    }
 }

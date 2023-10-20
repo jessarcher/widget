@@ -9,13 +9,13 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans&family=Press+Start+2P&family=Teko&family=Wavefont&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300&family=Orbitron&family=Pixelify+Sans&family=Press+Start+2P&family=Teko&family=Wavefont&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased bg-yellow-1000">
-        <div class="bg-yellow-1000 relative text-yellow-300 w-[1920px] h-[480px] p-6 overflow-hidden grid grid-cols-12 gap-10">
+    <body class="antialiased bg-amber-1000 text-amber-300 grainy">
+        <div class="relative w-[1920px] h-[480px] p-6 overflow-hidden grid grid-cols-12 gap-10">
             <div class="col-span-4 flex items-center">
                 <livewire:clock />
                 {{-- <livewire:battery /> --}}
