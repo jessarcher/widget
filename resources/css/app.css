@@ -14,7 +14,7 @@
     }
 
     .grainy:after {
-        animation: grain 12s steps(10) infinite;
+        animation: grain 8s steps(10) infinite;
         position: fixed;
         background-image: url('../images/light_toast.png');
         content: "";
