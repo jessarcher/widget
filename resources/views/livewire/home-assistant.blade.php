@@ -4,7 +4,12 @@ use Illuminate\Support\Facades\Http;
 
 use function Livewire\Volt\{computed, state};
 
-state(['class']);
+state([
+    'class' => '',
+    'count' => 0,
+]);
+
+$increment = fn () => $this->count++;
 
 $token = config('services.homeassistant.token');
 $baseUrl = config('services.homeassistant.url');
@@ -41,4 +46,8 @@ $toggleLights = fn () => $this->lights ? $this->officeLightsOff() : $this->offic
             </svg>
         @endif
     </button>
+
+    <div class="p-6">
+        <button wire:click="increment" class="text-amber-400 text-5xl border">{{ $this->count }}</button>
+    </div>
 </div>

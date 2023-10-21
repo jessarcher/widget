@@ -21,6 +21,8 @@
                 {{-- <livewire:battery /> --}}
                 {{-- <livewire:volume /> --}}
             </div>
+
+            <livewire:home-assistant />
             {{-- <div class="col-span-5 flex flex-col"> --}}
             {{--     <div class="flex-1 flex items-center justify-center"> --}}
             {{--         <livewire:home-assistant /> --}}
