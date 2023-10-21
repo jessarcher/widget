@@ -8,7 +8,7 @@ export default {
                     1000: '#1c0a01',
                 },
                 amber: {
-                    1000: '#0e0501',
+                    1000: '#0a0400',
                 },
             },
             fontFamily: {

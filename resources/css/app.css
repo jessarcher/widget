@@ -22,7 +22,7 @@
         width: 300%;
         left: -50%;
         top: -110%;
-        opacity: 0.15;
+        opacity: 0.2;
         pointer-events: none;
         mix-blend-mode: color-dodge;
         z-index: 100;
